@@ -1,58 +1,134 @@
+
+/* General Layout */
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f7;
+    color: #333333;
 }
 
+/* Resume Container */
 .container {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 50px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 45px 55px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
 }
 
+/* Header */
 header {
-	text-align: center;
-	margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #2563eb;
 }
 
 h1 {
-	font-size: 36px;
-	margin: 0;
+    font-size: 36px;
+    margin: 0 0 10px;
+    color: #1e293b;
+    letter-spacing: 1px;
 }
 
-p {
-	font-size: 18px;
-	margin: 0;
+header p {
+    font-size: 17px;
+    margin: 5px 0;
+    color: #64748b;
 }
 
+/* Sections */
 section {
-	margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
+    font-size: 22px;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    color: #2563eb;
+    border-bottom: 1px solid #dbe3ef;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
+/* Paragraphs */
+p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+    color: #475569;
+    text-align: justify;
+}
+
+/* Skills */
 ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 li {
-	display: inline-block;
-	margin-right: 10px;
-	font-size: 18px;
+    display: inline-block;
+    margin: 5px 6px 5px 0;
+    padding: 8px 13px;
+    font-size: 14px;
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    border: 1px solid #dbeafe;
+    border-radius: 5px;
 }
 
+/* Subheadings */
 h3 {
-	font-size: 20px;
-	margin-top: 20px;
-	margin-bottom: 10px;
+    font-size: 17px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: #1e293b;
 }
 
-p {
+/* Projects */
+#projects p {
+    margin-bottom: 15px;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 13px;
+    }
+
+    header {
+        margin-bottom: 25px;
+    }
+
+    section {
+        margin-bottom: 25px;
+    }
+}
 	font-size: 18px;
 	line-height: 1.5;
 }
